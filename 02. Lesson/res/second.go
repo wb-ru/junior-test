@@ -1,3 +1,5 @@
+package main
+
 func isIsomorphic(s string, t string) bool {
   isomorph:=make(map[string]string)
 	for i := 0; i < len(s); i++ {
