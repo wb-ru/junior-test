@@ -9,7 +9,6 @@ func TestSum(t *testing.T) {
 		target := 9
 		i := twoSum(nums, target)
 		got := 9
-
 		if (got != target) || (i[0] == i[1]) {
 			t.Errorf("got %d target %d given, %v", got, target, nums)
 		}

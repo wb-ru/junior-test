@@ -2,7 +2,7 @@ package secondres
 
 import "testing"
 
-func TestSum(tes *testing.T) {
+func TestIsomorph(tes *testing.T) {
 
 	tes.Run("Input: s = egg, t=add", func(tes *testing.T) {
 		s := "egg"
