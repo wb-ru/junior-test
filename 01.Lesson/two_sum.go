@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package two_sum
 
 // Returns indexes of items sum of which equals target
 // Returns nil if there're no such indexes or input slice is empty
@@ -23,8 +21,4 @@ func twoSum(nums []int, target int) []int {
 		m[item] = curIdx
 	}
 	return nil
-}
-
-func main() {
-	fmt.Println(twoSum([]int{1}, 1))
 }
