@@ -20,5 +20,5 @@ func twoSum(nums []int, target int) []int {
 }
 
 func main() {
-	fmt.Println(twoSum([]int{ 98, 93, 77, 82, 83 }, 165))
+	fmt.Println(twoSum([]int{1}, 1))
 }
