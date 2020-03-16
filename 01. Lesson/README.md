@@ -43,3 +43,25 @@ func twoSum(nums []int, target int) []int {
     
 }
 ```
+##### Выполненное задание 
+```
+package main
+import "fmt"
+
+
+func main(){
+	nums:=[]int{2,4,7,3,4,5,6,7,8,90}
+	target:=100
+	a:=len(nums)
+	var k int
+	for i:=0;i<=a;i++{
+		for j:=i+1;j<a;j++{
+			k=nums[i]+nums[j]
+			if k==target{
+				fmt.Println( i,j)
+			}
+		}	
+	}
+	
+}
+```
