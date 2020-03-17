@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package twoSums
 
 func twoSum(nums []int, target int) []int {
 	if len(nums) == 0 {
@@ -19,6 +17,3 @@ func twoSum(nums []int, target int) []int {
 
 }
 
-func main() {
-	fmt.Println(twoSum([]int{1}, 1))
-}
