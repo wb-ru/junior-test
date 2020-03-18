@@ -1,20 +1,23 @@
-package main
+package isomorphic
 
-import "fmt"
-
-func isomorphic(s string, t string) bool {
+func isIsomorphic(s string, t string) bool {
 
 	strMap := make(map[int]int)
 
-	return true
-}
+	for i, value := range s {
 
-func main() {
-	str1 := "egg"
-	str2 := "adl"
-	if isomorphic(str1, str2) {
-		fmt.Println("Isomorphic")
-	} else {
-		fmt.Println("Not isomorphic")
+		mapValue, inMap := strMap[int(value)]
+		if !inMap {
+			// add it
+			strMap[int(value)] = int(t[i])
+		} else {
+
+			if int(t[i]) != mapValue {
+				return false
+			}
+		}
+
 	}
+
+	return true
 }
