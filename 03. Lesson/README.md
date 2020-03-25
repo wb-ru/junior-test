@@ -1,7 +1,7 @@
 # Урок №3: Channels
 ## Ссылки для изучения
 	
-* https://docs.google.com/document/d/1-n2O-c3C6kz-4vNKJdtR9bjh-kXqJe7RydSOTBxvB3g/edit?usp=sharing
+* https://go101.org/article/101.html
 * https://habr.com/ru/post/308070/
 * https://github.com/quii/learn-go-with-tests/tree/master/select
 * https://www.ardanlabs.com/blog/2017/10/the-behavior-of-channels.html
