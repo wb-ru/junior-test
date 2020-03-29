@@ -15,13 +15,13 @@ var Payload = []string{"1", "2"}
 type Obs1 struct {
 }
 
-func (p *Obs1) Handle() string {
+func (p Obs1) Handle() string {
 	return Payload[0]
 }
 
 type Obs2 struct{}
 
-func (p *Obs2) Handle() string {
+func (p Obs2) Handle() string {
 	return Payload[1]
 }
 
