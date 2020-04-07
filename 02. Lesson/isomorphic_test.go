@@ -6,7 +6,7 @@ func TestIsIsomorphic(t *testing.T) {
 	var tests = []struct {
 		inputT string
 		inputS string
-		want bool
+		want   bool
 	}{
 		{"egg", "add", true},
 		{"foo", "bar", false},
